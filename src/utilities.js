@@ -9,4 +9,4 @@ function guid() {
     s4() + '-' + s4() + s4() + s4();
 }
 
-module.exports = { guid }
+module.exports = { guid: guid }
