@@ -12,7 +12,8 @@ class Redispubsub extends Adapter
 
   constructor: ->
     super
-    @userId = '57be6070296ad1b878399281'
+    # @userId = '57be6070296ad1b878399281'
+    @userId = '57be9d4b741f998795f31b62'
     @botname = 'simplebot'
     if process.env.REDIS_URL
       @redisSub = redis.createClient process.env.REDIS_URL
