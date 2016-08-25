@@ -9,12 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-  	"parent-require": "^1.0.0"
-	},
-	"peerDependencies": {
-	  "hubot": ">=2.0"
-	},
-	"devDependencies": {
-	  "coffee-script": ">=1.2.0"
-	}
+    "parent-require": "^1.0.0",
+    "redis": "^2.6.2"
+  },
+  "peerDependencies": {
+    "hubot": ">=2.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  }
 }
